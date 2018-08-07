@@ -297,4 +297,8 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*# sourceMappingURL=styles.css.map */
