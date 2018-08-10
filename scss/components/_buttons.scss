@@ -1,18 +1,17 @@
-.btn--default{
-
+.btn {
+	@include bg-colors($button-colors);
 }
-.btn--success{
 
-}
-.btn--error{
-
-}
-.btn--warning{
-
-}
-.btn--info{
-
-}
-.theme__colors{
-  
+[class^="btn--"] {
+  @extend %center-align;
+  @extend %btn;
+  margin-bottom: em(20px, 14px);
+  @media (min-width: 1px) and (max-width: 768px) {
+  	width: 100%;
+  }
+  @media (min-width: 769px) {
+    width: auto;
+    display: inline-block;
+    // @include doubly(20px);
+  }
 }

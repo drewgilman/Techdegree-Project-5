@@ -1,45 +1,22 @@
-.container{
+.grid {
 
-}
-.grid__row{
+  @include e(row) {
+    display: block;
+    padding: .5em;
+    margin-bottom: 1em;
+  }
+  @include e(col) {
+    @include bg-colors ($grid-colors);
 
+  }
 }
-.grid__col--2{
 
-}
-.grid__col--3{
+[class^="grid__col--"] {
+  padding: .75em .5em;
+  border: 0;
+  border-radius : 5px;
+  color: $grey;
+  margin-bottom: .25em;
+  font-weight: $font-weight--bold;
 
-}
-.grid__col--4{
-
-}
-.grid__col--5{
-
-}
-.grid__col--6{
-
-}
-.grid__col--7{
-
-}
-.grid__col--8{
-
-}
-.grid__col--9{
-
-}
-.grid__col--10{
-
-}
-.grid__col--11{
-
-}
-.grid__col--12{
-
-}
-.centered{
-
-}
-.theme__colors{
-  
 }

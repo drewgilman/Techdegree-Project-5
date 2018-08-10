@@ -1,15 +1,74 @@
 // ==========================================================================
-// Fonts
+// Text and Fonts
 // ==========================================================================
 
+// Text
+
+$base__font-size :      16px;
+$base__line      :      24px;
+$letter-space    :      1px;
+
+
+// Fonts
+
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary    : 'Lato','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
 
 
 // ==========================================================================
 // Media Query Breakpoints
 // ==========================================================================
-
+$breakpoint-mobile : 481px;
 
 
 // ==========================================================================
 // Colors
 // ==========================================================================
+
+//Primary Colors
+$black:             #000000;
+$white:             #fff;
+$grey:              #808080;
+
+//Color Usage
+$color-primary:     #58e1c1;
+$color-secondary:   #51ddfc;
+
+
+//Color Maps
+$button-colors: (
+	default :        $color-secondary,
+	success :        #63cc82,
+	error   :        #e4757a,
+	warning :        #fd7856,
+	info    :        #927bc1
+);
+
+$grid-colors: (
+  12:             #80e8d1,
+  6:              #3fabca,
+  4:              #7ee6fd,
+  3:              #deb2ee,
+  5:              #88d9a0,
+  7:              #ec9fa3,
+  8:              #fd9f85
+
+);
+
+
+// ==========================================================================
+// Grid
+// ==========================================================================
+
+$g-col-width    : 65px;
+$g-gutter-width : 20px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1050px;

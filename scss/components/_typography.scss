@@ -1,15 +1,14 @@
-.container{
-
-}
 .link{
-
+  @extend %links;
 }
 .blockquote{
-
+  border-radius: 6px;
+  padding: 0 0 0 5%;
+  border-left: em(8px, 24px) solid $color-primary;
+	font-weight: $font-weight--medium;
+	font-style : italic;
+	font-size : em(24px);
 }
-.headline--primary{
+.headline{
 
-}
-.headline--secondary{
-  
 }
