@@ -12,4 +12,8 @@
       }
     }
   }
+  @include mq(medium) {
+    @include flexbox(flex, row);
+    align-self: flex-end;
+  }
 }

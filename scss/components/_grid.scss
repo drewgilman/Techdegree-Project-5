@@ -4,10 +4,15 @@
     display: block;
     padding: .5em;
     margin-bottom: 1em;
+    @include mq(medium){
+      @include flexbox(flex, row, wrap, space-between);
+    }
   }
   @include e(col) {
     @include bg-colors ($grid-colors);
-
+    @include mq(medium){
+      @include g-columns();
+    }
   }
 }
 
@@ -18,5 +23,8 @@
   color: $grey;
   margin-bottom: .25em;
   font-weight: $font-weight--bold;
+  @include mq(medium){
+    @include flexbox($just: space-between);
+  }
 
 }

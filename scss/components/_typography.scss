@@ -10,5 +10,13 @@
 	font-size : em(24px);
 }
 .headline{
-
+  @include m(primary) {
+    color: $color-primary;
+    font-weight: $font-weight--ultra-bold;
+    margin-left: 1em;
+  }
+  @include m(secondary) {
+    font-weight: $font-weight--medium;
+    color: $grey;
+  }
 }

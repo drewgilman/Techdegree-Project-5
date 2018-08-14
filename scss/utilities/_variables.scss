@@ -36,7 +36,7 @@ $breakpoint-mobile : 481px;
 //Primary Colors
 $black:             #000000;
 $white:             #fff;
-$grey:              #808080;
+$grey:              #868686;
 
 //Color Usage
 $color-primary:     #58e1c1;
@@ -64,11 +64,15 @@ $grid-colors: (
 );
 
 
-// ==========================================================================
 // Grid
-// ==========================================================================
 
 $g-col-width    : 65px;
 $g-gutter-width : 20px;
 $g-col-count    : 12;
 $g-cont-max-w   : 1050px;
+
+// Breakpoints
+
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1100px;

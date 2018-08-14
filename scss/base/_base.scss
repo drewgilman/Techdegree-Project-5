@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  // border: red 1px solid;
+  border: red 1px solid;
 }
 
 ul{
@@ -10,11 +10,16 @@ ul{
 
 p {
   font-size: $base__font-size;
-  line-height: normal;
+  line-height: em(22px);
   font-weight: $font-weight--medium;
+
 }
 
 .container{
   font-family: $font-family--primary;
   padding: 1em;
+  @include mq(medium) {
+    max-width: 1000px;
+    margin: 1em auto;
+  }
 }
