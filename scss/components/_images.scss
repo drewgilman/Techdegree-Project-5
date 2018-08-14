@@ -2,12 +2,17 @@
   @include m(frame) {
     @extend %img-disp;
     border: 1px solid $grey;
-    width: 100%;
     padding: .5em;
+    width: 100%;
+    @include mq(medium){
+      width: 410px;
+      height: 200px;
+    }
   }
   @include m(avatar) {
     @extend %img-disp;
-    width: 50%;
+    width: 199px;
+    height: 199px;
   }
   @include m(logo) {
     @extend %img-disp;

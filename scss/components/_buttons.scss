@@ -9,6 +9,6 @@
 	width: 100%;
   @include mq(medium) {
     display: inline-block;
-		@include doubly(20px);
+		@include doubly(50px);
   }
 }

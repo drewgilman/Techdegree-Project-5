@@ -9,7 +9,7 @@
 		}
 	}
 	@include mq(medium){
-		margin-left: auto;
+		width: 100%;
 	}
 
 	@include e(input) {

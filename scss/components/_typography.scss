@@ -16,7 +16,6 @@
     margin-left: 1em;
   }
   @include m(secondary) {
-    font-weight: $font-weight--medium;
-    color: $grey;
+    @extend %headlines;
   }
 }

@@ -21,11 +21,14 @@
   border: 0;
   border-radius : 5px;
   color: $grey;
-  margin-bottom: .25em;
   font-weight: $font-weight--bold;
   @include mq(medium){
-    @include flexbox($just: space-between);
-    
+    @include flexbox($just: space-around);
+  }
+}
 
+.grid__col--9 {
+  nav {
+    margin: 0 5% 0 auto;
   }
 }

@@ -42,6 +42,11 @@
   display: block;
   margin: 1em auto; }
 
+.headline--secondary {
+  font-weight: 400;
+  color: #868686;
+  margin: 0; }
+
 .nav__item {
   display: block;
   margin: 0;
@@ -360,8 +365,7 @@ template {
   display: none; }
 
 * {
-  box-sizing: border-box;
-  border: red 1px solid; }
+  box-sizing: border-box; }
 
 ul {
   list-style: none; }
@@ -397,11 +401,11 @@ p {
     [class^="btn--"] {
       display: inline-block; }
       [class^="btn--"] + [class^="btn--"] {
-        margin-left: 20px; } }
+        margin-left: 50px; } }
 
 @media (min-width: 769px) {
   .form {
-    margin-left: auto; } }
+    width: 100%; } }
 .form__input {
   display: block;
   width: 90%;
@@ -440,27 +444,27 @@ p {
   background-color: #fd9f85; }
 @media (min-width: 769px) {
   .grid__col--1 {
-    width: 6.5%; }
+    width: 6.87831%; }
   .grid__col--2 {
-    width: 15%; }
+    width: 15.34392%; }
   .grid__col--3 {
-    width: 23.5%; }
+    width: 23.80952%; }
   .grid__col--4 {
-    width: 32%; }
+    width: 32.27513%; }
   .grid__col--5 {
-    width: 40.5%; }
+    width: 40.74074%; }
   .grid__col--6 {
-    width: 49%; }
+    width: 49.20635%; }
   .grid__col--7 {
-    width: 57.5%; }
+    width: 57.67196%; }
   .grid__col--8 {
-    width: 66%; }
+    width: 66.13757%; }
   .grid__col--9 {
-    width: 74.5%; }
+    width: 74.60317%; }
   .grid__col--10 {
-    width: 83%; }
+    width: 83.06878%; }
   .grid__col--11 {
-    width: 91.5%; }
+    width: 91.53439%; }
   .grid__col--12 {
     width: 100%; } }
 
@@ -469,19 +473,26 @@ p {
   border: 0;
   border-radius: 5px;
   color: #868686;
-  margin-bottom: .25em;
   font-weight: 700; }
   @media (min-width: 769px) {
     [class^="grid__col--"] {
       display: flex;
-      justify-content: space-between; } }
+      justify-content: space-around; } }
+
+.grid__col--9 nav {
+  margin: 0 5% 0 auto; }
 
 .img--frame {
   border: 1px solid #868686;
-  width: 100%;
-  padding: .5em; }
+  padding: .5em;
+  width: 100%; }
+  @media (min-width: 769px) {
+    .img--frame {
+      width: 410px;
+      height: 200px; } }
 .img--avatar {
-  width: 50%; }
+  width: 199px;
+  height: 199px; }
 
 .nav {
   padding: 1em 0; }
@@ -504,8 +515,5 @@ p {
   color: #58e1c1;
   font-weight: 900;
   margin-left: 1em; }
-.headline--secondary {
-  font-weight: 400;
-  color: #868686; }
 
 /*# sourceMappingURL=styles.css.map */
