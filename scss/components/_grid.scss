@@ -25,6 +25,7 @@
   font-weight: $font-weight--bold;
   @include mq(medium){
     @include flexbox($just: space-between);
+    
 
   }
 }
